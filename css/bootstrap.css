@@ -4372,7 +4372,7 @@ input[type="submit"].btn.btn-mini {
 
 /*CARACTERISTICAS DE LA BARRA SUPERIOR*/
 .navbar-inner {
-  min-height: 80px;
+  min-height: 70px;
   padding-right: 20px;
   padding-left: 20px;
   /*background-color: #fafafa;*/
@@ -4394,17 +4394,17 @@ background-image: -webkit-gradient(
 );*/
 
 
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #fff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #ffffff, #fff);
+  background-image: -o-linear-gradient(top, #ffffff, #fff);
+  background-image: linear-gradient(to bottom, #ffffff, #fff);
   background-repeat: repeat-x;
-  border: 1px solid #d4d4d4;
+  border: 2px solid #d4d4d4;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff', GradientType=0);
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -4437,8 +4437,9 @@ background-image: -webkit-gradient(
   padding: 30px 20px 10px;
   margin-left: -20px;
   font-size: 20px;
-  font-weight: 200;
-  color: #f9a538;
+  font-weight: 220;
+  color: #fff;
+
   /*text-shadow: 0 1px 0 #0F0;*/
 }
 
@@ -6149,7 +6150,7 @@ a.badge:focus {
 }
 
 .hero-unit {
-  padding: 40px;
+  padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
@@ -6201,8 +6202,12 @@ background-image: -webkit-gradient(
   letter-spacing: -1px;
   color: inherit;
 }
-.hero-unit h1 span { line-height:1em; font-size:1em; font-weight:bold; color:#585800;
-text-shadow:#fff 0px 3px 0, #005858 0 -1px 0;
+.hero-unit h1 span { 
+  line-height:1em; 
+  font-size:1em; 
+  font-weight:bold; 
+  color:#005900;
+  text-shadow:#8BA52C 0px 2px 2px, #005858 0 -1px 0;
 } 
 .hero-unit li {
   line-height: 30px;
