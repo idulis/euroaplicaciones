@@ -69,6 +69,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+
 }
 
 a:focus {
@@ -227,7 +228,8 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  
 }
 
 a {
@@ -5590,7 +5592,7 @@ background-image: -webkit-gradient(
   display: block;
   padding: 4px;
   line-height: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #5AB45A;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -6160,8 +6162,8 @@ a.badge:focus {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-
-  background-image: url('../img/hero-unit.png');
+background-image: url('../img/fondohero-unit.png');
+  
   background-repeat: no-repeat; 
 /*background-image: linear-gradient(bottom, rgb(232,237,202) 24%, rgb(255,255,240) 69%, rgb(251,252,249) 100%);
 background-image: -o-linear-gradient(bottom, rgb(232,237,202) 24%, rgb(255,255,240) 69%, rgb(251,252,249) 100%);
